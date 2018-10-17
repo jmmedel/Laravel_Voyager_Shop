@@ -104,11 +104,15 @@
                         <a class="uk-button uk-button-link">{{ Auth::user()->name }}<i class="uk-icon-angle-down uk-margin-small-left"></i></a>
                         <div class="uk-dropdown uk-dropdown-navbar p-0">
                             <ul class="uk-nav uk-nav-navbar m-0 ">
+                                        @if( Auth::user()->role_id == '1' )
+                                        <li><a href="{{ url('admin/login') }}">Admin</a> </li>
+                                        @endif
                                         <li><a href="{{ url('/wishlist') }}">Favourites</a> </li> 
                                         <li>
                                             <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">LOGOUT</a> </li>
+                                        
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
