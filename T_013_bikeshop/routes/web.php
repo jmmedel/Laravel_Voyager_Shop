@@ -24,9 +24,16 @@ Route::get('/', 'HomeController@index')->name('index');
 |--------------------------------------------------------------------------
 |
 */
-Route::group(['prefix' => 'admin'], function () {
+
+//Route::group(['prefix' => 'admin'], function () {
+//    Voyager::routes();
+//});
+
+Route::prefix('admin')->group(function(){
+    
     Voyager::routes();
 });
+
 /*
 |--------------------------------------------------------------------------
 | contact Route
