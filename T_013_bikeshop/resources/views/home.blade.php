@@ -45,6 +45,8 @@
                                 @endforeach
                                 <!-- ======================    Foreach  News =========== -->
                             </ul>
+                            
+                            @if(!Auth::check())
                             <div class="uk-panel">
                                 <h5 class="uk-panel-header uk-margin-top widget-header">SIMBLE Login</h5>
                                 <!-- ======================    Form  SIMBLE Login =========== -->
@@ -87,7 +89,9 @@
                                 </form>
                                 <!-- ======================    Form  SIMBLE Login =========== -->
                             </div>
+                            @endif
                         </div>
+                        
                     </div>
             <div id="tm-right-section" class="uk-width-large-8-10 uk-width-medium-7-10"  data-uk-scrollspy="{cls:'uk-animation-fade', target:'img'}">
                         <div class="uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-3" data-uk-grid="{gutter:20}">
