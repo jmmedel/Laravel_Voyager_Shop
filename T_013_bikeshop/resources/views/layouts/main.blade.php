@@ -41,6 +41,9 @@
     <!--  ===================================   Theme CSS =========  -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
+    <!--  ===================================   Twitter widget by john  ===== -->
+    <link rel="stylesheet" href="{{ asset('assets/css/css.css') }}">
+
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
     </head>
     <body>
@@ -227,7 +230,11 @@
                     <script src="{{ asset('assets/js/components/grid.min.js') }}"></script>
                     <!--  =========================== slideset.min.js ========================  -->
                     <script src="{{ asset('assets/js/components/slideset.min.js') }}"></script>
-
+                    
+                      <!--  =========================== Twiiter_Widgets ========================  -->
+                     <!--  =========================== widget.js.min.js ========================  -->
+                     <script src="{{ asset('assets/js/widgets.js') }}"></script>
+                      
                 </body>
             </html>
 

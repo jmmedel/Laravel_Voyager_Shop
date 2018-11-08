@@ -92,6 +92,29 @@
                             @endif
                         </div>
                         
+                        <!-- ======================    Twiiter Widget by john  =========== -->
+<div onload="paint()">
+    <div>
+        <p>Twiiter</p>
+    </div>
+
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hikakin" data-widget-id="343053082919333888">Tweets by @mythicalpizza</a>
+    <script>
+        !function (d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                   js = d.createElement(s);
+                   js.id = id; js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                 } 
+            }(document, "script", "twitter-wjs");
+    </script>
+
+
+    
+    
+</div>
+
                     </div>
             <div id="tm-right-section" class="uk-width-large-8-10 uk-width-medium-7-10"  data-uk-scrollspy="{cls:'uk-animation-fade', target:'img'}">
                         <div class="uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-3" data-uk-grid="{gutter:20}">
