@@ -115,6 +115,21 @@
     
 </div>
 
+                 <!-- ======================     Facebook  Widget by john  =========== -->
+                 <li class="uk-nav-divider"></li>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=246171526244337&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="fb-page" data-href="https://www.facebook.com/HIKAKIN/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/HIKAKIN/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HIKAKIN/">HIKAKIN</a></blockquote></div>
+
+
+
                     </div>
             <div id="tm-right-section" class="uk-width-large-8-10 uk-width-medium-7-10"  data-uk-scrollspy="{cls:'uk-animation-fade', target:'img'}">
                         <div class="uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-3" data-uk-grid="{gutter:20}">
