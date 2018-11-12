@@ -144,7 +144,9 @@
             @yield('content')
             <!-- ========================================   start Footer Section ============    -->
             <footer id="tm-footer" class="uk-block uk-block-secondary uk-block-small ">
+            
                 <div class="uk-container-center uk-container">
+                    
                     <div class="uk-grid">
                     <div class="uk-width-medium-3-10"><div class="copyright-text">&copy; 2018
                     <!-- ===============================   site.title  =======================  --> 
@@ -176,6 +178,7 @@
                                 </ul></div></div>
                             </div>
                         </div>
+                        @include('footer.footer') 
                     </footer>
 
                     <!--     start Offcanvas Menu   -->

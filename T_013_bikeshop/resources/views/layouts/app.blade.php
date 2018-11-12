@@ -106,6 +106,10 @@
                 </div>
             </div>
         </div>
+
+        
+         
+        
         <!--  ============================   Include JS =================  -->
         <!-- ==================   jquery js ============  -->
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
