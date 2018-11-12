@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="uk-panel" >
                                     <!--  ==============================================   product name Section  -->
-                                    <h5 class="uk-panel-title">{{ $Wishlist->product->productname }}</h5>
+                                    <h5 class="uk-panel-title">{{ $Wishlist->product->Productname }}</h5>
                                                 <span class="rating">
                                                     <i class="uk-icon-heart"></i>
                                                 </span>

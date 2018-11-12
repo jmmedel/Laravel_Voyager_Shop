@@ -13,7 +13,7 @@
                             <div class="uk-width-medium-10-10">
                                 <div  class="media-cover">
                                     <!--   ================  Post image Section ================  -->
-                                    <img src="{!! asset(Voyager::image( $post->image )) !!}" width="100%" alt="{{ $post->seo_title }}" class="uk-scrollspy-inview uk-animation-fade">
+                                    <img src="{!! asset(Voyager::image( $post->image )) !!}" width="500" height="500"  alt="{{ $post->seo_title }}" class="uk-scrollspy-inview uk-animation-fade">
                                 </div>
                                 
                             </div>
