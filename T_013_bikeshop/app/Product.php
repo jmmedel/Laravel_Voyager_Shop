@@ -12,7 +12,7 @@ use App\Wishlist;
 class Product extends Model
 {
     protected $fillable = [
-        'productname', 'productcontent', 'productprice', 'WheelSize', 'ModelNumber','Color','category_id','Wattage','image','slug'
+        'Productname', 'Productcontent', 'Productprice', 'Brand', 'Size','Color','category_id','Categorykeyword','image','slug'
     ];
     // THIS function Category TO MAKE RELATHION WITH Product
     public function category()

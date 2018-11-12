@@ -116,6 +116,7 @@
 </div>
 
                  <!-- ======================     Facebook  Widget by john  =========== -->
+<!-- ====================== 
                  <li class="uk-nav-divider"></li>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -127,7 +128,7 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 <div class="fb-page" data-href="https://www.facebook.com/HIKAKIN/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/HIKAKIN/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HIKAKIN/">HIKAKIN</a></blockquote></div>
-
+ =========== -->
 
 
                     </div>

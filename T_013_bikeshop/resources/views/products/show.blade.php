@@ -106,22 +106,22 @@
                                                 <!--   ================  created_at Product   ================  -->
                                                 <li><i class="uk-icon-clock-o uk-margin-small-right"></i>{{ $product->created_at }}</li>
                                                 <!--   ================   Price Product   ================  -->
-                                                <li><i class="fas fa-award uk-margin-small-right"></i>$ {{ $product->productprice }}</li>
+                                                <li><i class="fas fa-award uk-margin-small-right"></i>$ {{ $product->Productprice }}</li>
                                                 
                                             </ul>
                                             <hr>
                                             <!--   ================   content Product   ================  -->
-                                            <p class="uk-text-muted uk-h4">{{ $product->productcontent }}</p>
+                                            <p class="uk-text-muted uk-h4">{{ $product->Productcontent }}</p>
                                             <dl class="uk-description-list-horizontal uk-margin-top">
                                                 <dt> Wheel Size :</dt>
                                                 <dd><ul class="uk-subnav ">
                                                 <!--   ================  Wheel Size Product   ================  -->
-                                                <li><a href="#">{{ $product->WheelSize }}</a></li>
+                                                <li><a href="#">{{ $product->Size }}</a></li>
                                                 </ul></dd>
-                                                <dt> Model Number : </dt>
+                                                <dt> Brad : </dt>
                                                 <dd><ul class="uk-subnav ">
                                                     <!--   ================  Model Number Product   ================  -->
-                                                    <li><a href="#">{{ $product->ModelNumber }}</a></li>
+                                                    <li><a href="#">{{ $product->Brand }}</a></li>
                                                 </ul></dd>
                                                 <dt> Color : </dt>
                                                 <dd><ul class="uk-subnav color-bike">
@@ -133,10 +133,10 @@
                                                     <!--   ================  Category Came Product   ================  -->
                                                     <li><a href="#">{{ $product->category->name }}</a></li>
                                                 </ul></dd>
-                                                 <dt> Wattage : </dt>
+                                                 <dt> Categorykeyword : </dt>
                                                 <dd><ul class="uk-subnav ">
                                                     <!--   ================  Wattage Product   ================  -->
-                                                    <li><a href="#">{{ $product->Wattage }}</a></li>
+                                                    <li><a href="#">{{ $product->Categorykeyword }}</a></li>
                                                 </ul></dd>
                                                   <dt> Frame Material : </dt>
                                                  <dd><ul class="uk-subnav ">
