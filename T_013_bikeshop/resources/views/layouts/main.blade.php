@@ -43,7 +43,8 @@
     <!--  ===================================   jquery-louder ===== -->
     <!--  ===================================   Twitter widget by john  ===== -->
     <link rel="stylesheet" href="{{ asset('assets/css/css.css') }}">
-
+    <!--  ===================================   like button  widget by john  ===== -->
+    <link rel="stylesheet" href="{{ asset('assets/css/likebuttoncss.css') }}">
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
     </head>
     <body>
@@ -239,6 +240,9 @@
                      <!--  =========================== widget.js.min.js ========================  -->
                      <script src="{{ asset('assets/js/widgets.js') }}"></script>
                       
+
+                    <!--  ===================================   like button  widget JS by john  ===== -->
+                    <script src="{{ asset('assets/js/likebuttonjs.js') }}"></script>
                 </body>
             </html>
 

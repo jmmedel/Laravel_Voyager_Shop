@@ -45,6 +45,21 @@
                             {{ Form::close() }}
                             <!--   ================  Form Wishlist store Section ================  -->
 
+                            <!--   ================  LikeButton Add by kagaya john  ================  -->
+
+
+                            <div class="like-content">
+  
+ 
+                            <button class="btn-secondary like-review">
+                                <i class="fa fa-heart" aria-hidden="true"></i> Like
+                            </button>
+  
+                            </div>
+
+
+
+                             <!--   ================  LikeButton Add by kagaya john  ================  -->
                     <a class="uk-button uk-button-link color-y uk-text-muted uk-button-large uk-width-1-1 uk-margin-top" href="{{ url('contact')}}">
                     <i class="uk-icon-receiver uk-margin-small-right "></i> Contact Us</a>
                             </div>
