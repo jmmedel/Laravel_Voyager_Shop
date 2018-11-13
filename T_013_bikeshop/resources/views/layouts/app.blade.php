@@ -46,6 +46,7 @@
 
 <body  class="uk-height-1-1" cz-shortcut-listen="true">
     <!--  ================================   start Top Navbar ============================  -->
+    
     <div class="tm-navbar tm-navbar-overlay tm-navbar-transparent tm-navbar-contrast">
         <nav class="uk-navbar uk-margin-top">
             <div class="uk-container-center uk-container">
@@ -56,10 +57,15 @@
                     <a href="#offcanvas" class="uk-navbar-toggle uk-icon-medium uk-float-right uk-margin-left" data-uk-offcanvas=""></a>
                     <a class=" uk-button uk-button-success uk-button-large uk-float-left" href="{{ route('register') }}">
                         <i class="uk-icon-lock uk-margin-small-right"></i>Sign up</a>
-                    </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+         </nav>
+         
+    </div>
+        
+
+        
+
         <!--  =================   ./ Top Navbar ===================  -->
         <!-- ========= Laravel yield content site ================== -->
         @yield('content')

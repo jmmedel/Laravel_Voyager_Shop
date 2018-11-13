@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+
 <!--   ====================================  start Main Section ===============================  -->
             <div class="uk-container uk-container-center uk-margin-large-top uk-margin-large-bottom">
                 <div class="uk-grid">
@@ -133,6 +134,7 @@
 
                     </div>
             <div id="tm-right-section" class="uk-width-large-8-10 uk-width-medium-7-10"  data-uk-scrollspy="{cls:'uk-animation-fade', target:'img'}">
+            
                         <div class="uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-3" data-uk-grid="{gutter:20}">
 
 
