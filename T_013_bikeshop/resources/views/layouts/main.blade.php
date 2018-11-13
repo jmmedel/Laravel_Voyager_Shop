@@ -42,9 +42,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
     <!--  ===================================   Twitter widget by john  ===== -->
-    <link rel="stylesheet" href="{{ asset('assets/css/css.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/css.css') }}">
     <!--  ===================================   like button  widget by john  ===== -->
-    <link rel="stylesheet" href="{{ asset('assets/css/likebuttoncss.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/likebuttoncss.css') }}">
+    <!--  ===================================   Bootstrap4   ===== -->
+    
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
     </head>
     <body>
@@ -242,7 +244,9 @@
                       
 
                     <!--  ===================================   like button  widget JS by john  ===== -->
-                    <script src="{{ asset('assets/js/likebuttonjs.js') }}"></script>
+                    <script src="{{ asset('js/likebuttonjs.js') }}"></script>
+                    <!--  ===================================   Bootstrap4   ===== -->
+                    
                 </body>
             </html>
 
