@@ -82,7 +82,7 @@
             <div class="uk-container uk-container-center ">
                 <a class="uk-navbar-brand uk-hidden-small" href="{{ url('/') }}">
                 <!-- ======================  site.logo  ============  -->     
-                <img src="{{ Voyager::image(setting('site.logo')) }}" width="200" height="120"></a>
+                <img src="{{ Voyager::image(setting('site.logo')) }}" width="50" height="50"></a>
     <!-- ==================   start Form search =======================================================  -->             
     {!! Form::open(['method'=>'GET','url'=>'search','role'=>'search','class'=>'uk-search uk-margin-small-top uk-margin-left uk-hidden-small']) !!}
                 
