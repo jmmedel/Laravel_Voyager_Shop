@@ -1,13 +1,11 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 
 
 html {
   box-sizing: border-box;
+  
 }
 
 *, *:before, *:after {
@@ -16,10 +14,12 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+
 
 @media screen and (max-width: 650px) {
   .column {
@@ -30,6 +30,7 @@ html {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
 .container {
@@ -62,17 +63,30 @@ html {
   background-color: #555;
 }
 </style>
-</head>
-<body>
 
 <h2>Responsive "Meet The Team" Section</h2>
 <p>Resize the browser window to see the effect.</p>
 <br>
 
-<div class="row">
+
+<div class="container">
+<div class="column">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person1.jpeg') }}" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+
+  
   <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person2.jpeg') }}" alt="Jane" style="width:100%">
       <div class="container">
         <h2>Jane Doe</h2>
         <p class="title">CEO & Founder</p>
@@ -84,23 +98,24 @@ html {
   </div>
 
   <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person3.jpeg') }}" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
+
   <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person4.jpeg') }}" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
@@ -109,62 +124,51 @@ html {
   </div>
 </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+<div class="container" id="container2">
+<div class="column">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person1.jpeg') }}" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+
+  
+  <div class="column">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person2.jpeg') }}" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
-</div>
 
   <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+    <div class="card" style="width:100%" >
+      <img src="{{ asset('img/person3.jpeg') }}" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
+
+  
 </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
+    
+  
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team4.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</body>
-</html>
+  
