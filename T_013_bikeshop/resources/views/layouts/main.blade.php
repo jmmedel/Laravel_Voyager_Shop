@@ -37,7 +37,16 @@
     <!-- ====== apple-touch-icon ================== -->
     <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
     <!--  ===============================   Include UIKit CSS  ======== -->
+     
+
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
+    <!--  ===============================   Include UIKit Slider  ======== -->
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.min.css') }}">
     <!--  ===================================   Theme CSS =========  -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
@@ -45,13 +54,15 @@
     <link rel="stylesheet" href="{{ asset('css/css.css') }}">
     <!--  ===================================   like button  widget by john  ===== -->
     <link rel="stylesheet" href="{{ asset('css/likebuttoncss.css') }}">
-    <!--  ===================================   Bootstrap4   ===== -->
-    
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
+  
+
+
     </head>
     <body>
         <!--   ======================================  start Header Section  ====================== -->
         <!--  ================================   start Top Navbar ================================= -->
+        
         <nav id="tm-topbar" class=" uk-navbar uk-contrast ">
             <div class="uk-container uk-container-center ">
                 <ul class="uk-navbar-nav uk-hidden-small">
@@ -81,6 +92,7 @@
             </div>
             
         </nav>
+        
         <nav id="tm-header" class="uk-navbar  ">
             <div class="uk-container uk-container-center ">
                 <a class="uk-navbar-brand uk-hidden-small" href="{{ url('/') }}">
@@ -94,6 +106,7 @@
                     <div type="submit" class="uk-dropdown uk-dropdown-flip uk-dropdown-search" aria-expanded="false"></div>
     {!! Form::close() !!}
     <!-- ==================   End Form search =========================================================  -->
+    
                    @guest
                     <div class="uk-navbar-flip uk-hidden-small">
                         <div class="uk-button-group">
@@ -140,8 +153,9 @@
                     <img src="{{ Voyager::image(setting('site.logo')) }}" width="120"></a>
                 </div>
                 </div>
+                
             </nav>
-            
+             
             <!-- ========================================  Scripts ============================ -->
             <script>window.Laravel = {!! json_encode(['csrfToken' => csrf_token(),]) !!}; </script>
             <!-- ======================================== ./ Header Section ================= ----->
@@ -237,7 +251,9 @@
                     <script src="{{ asset('assets/js/components/grid.min.js') }}"></script>
                     <!--  =========================== slideset.min.js ========================  -->
                     <script src="{{ asset('assets/js/components/slideset.min.js') }}"></script>
-                    
+                     <!--  =========================== slider.min.js ========================  -->
+                     <script src="{{ asset('assets/js/components/slider.js') }}"></script>
+                     <script src="{{ asset('assets/js/components/slider.min.js') }}"></script>
                       <!--  =========================== Twiiter_Widgets ========================  -->
                      <!--  =========================== widget.js.min.js ========================  -->
                      <script src="{{ asset('assets/js/widgets.js') }}"></script>
@@ -245,7 +261,9 @@
 
                     <!--  ===================================   like button  widget JS by john  ===== -->
                     <script src="{{ asset('js/likebuttonjs.js') }}"></script>
-                    <!--  ===================================   Bootstrap4   ===== -->
+                   
+                    
+
                     
                 </body>
             </html>

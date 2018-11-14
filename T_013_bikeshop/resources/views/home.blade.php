@@ -134,7 +134,21 @@
 
                     </div>
             <div id="tm-right-section" class="uk-width-large-8-10 uk-width-medium-7-10"  data-uk-scrollspy="{cls:'uk-animation-fade', target:'img'}">
-            
+                        
+                <!-- ======================   Add Ranking Slidershow =========== -->
+
+                
+               @include('include.slideshow')
+               <hr class="uk-divider-vertical">
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+
+                <!-- ======================  End  Add Ranking Slidershow =========== -->
                         <div class="uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-3" data-uk-grid="{gutter:20}">
 
 
