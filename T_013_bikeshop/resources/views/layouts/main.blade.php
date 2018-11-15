@@ -37,16 +37,9 @@
     <!-- ====== apple-touch-icon ================== -->
     <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
     <!--  ===============================   Include UIKit CSS  ======== -->
-     
-
+    <link rel="stylesheet" href="{{ asset('assets/css/uikit.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
-    <!--  ===============================   Include UIKit Slider  ======== -->
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.min.css') }}">
+
     <!--  ===================================   Theme CSS =========  -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
@@ -90,10 +83,12 @@
                      <!-- ==================   menu HOME  ============  -->
                 </div>
             </div>
+            @include('include.nagition')
             
         </nav>
         
         <nav id="tm-header" class="uk-navbar  ">
+           
             <div class="uk-container uk-container-center ">
                 <a class="uk-navbar-brand uk-hidden-small" href="{{ url('/') }}">
                 <!-- ======================  site.logo  ============  -->     
