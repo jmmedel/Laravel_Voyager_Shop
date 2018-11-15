@@ -48,7 +48,9 @@
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
   
      <!--  ===============================   Include UIKit Slider  ======== -->
-     <link rel="stylesheet" href="{{ asset('assets/css/components/slider.css') }}">
+     <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/css/uikit.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/components/slider.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.min.css') }}">
