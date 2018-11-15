@@ -38,7 +38,6 @@
     <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
     <!--  ===============================   Include UIKit CSS  ======== -->
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
-    
     <!--  ===================================   Theme CSS =========  -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
@@ -48,8 +47,15 @@
     <link rel="stylesheet" href="{{ asset('css/likebuttoncss.css') }}">
     <script src="{{ asset('assets/js/jquery-louder.js') }}"></script>
   
-
-
+     <!--  ===============================   Include UIKit Slider  ======== -->
+     <link rel="stylesheet" href="{{ asset('assets/css/components/slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.almost-flat.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/components/slider.gradient.min.css') }}">
+    
+    
     </head>
     <body>
         <!--   ======================================  start Header Section  ====================== -->
@@ -256,7 +262,9 @@
                     <!--  ===================================   like button  widget JS by john  ===== -->
                     <script src="{{ asset('js/likebuttonjs.js') }}"></script>
                    
-                    
+                    <!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit-icons.min.js"></script>
 
                     
                 </body>
