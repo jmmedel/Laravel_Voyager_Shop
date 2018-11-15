@@ -37,9 +37,8 @@
     <!-- ====== apple-touch-icon ================== -->
     <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
     <!--  ===============================   Include UIKit CSS  ======== -->
-    <link rel="stylesheet" href="{{ asset('assets/css/uikit.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
-
+    
     <!--  ===================================   Theme CSS =========  -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.css') }}">
     <!--  ===================================   jquery-louder ===== -->
