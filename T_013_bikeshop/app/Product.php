@@ -10,7 +10,8 @@ use App\Wishlist;
 
 
 class Product extends Model
-{
+{   
+    // This is where The Prodcut Model Need to change later
     protected $fillable = [
         'Productname', 'Productcontent', 'Productprice', 'Brand', 'Size','Color','category_id','Categorykeyword','image','slug'
     ];
